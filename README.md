@@ -1,12 +1,9 @@
-# CPSC449-Project3
+# CPSC449-Project
 
-# Members
-- Juan Cocina
-- Eric Du
-- Britney Fernandez
+This is a project that was completed in a team, the instructions on how to use the various features are below:
 
 # How to initialize the Databases
-- cd into /Project3
+- cd into the folder this is located in
 - run the command './bin/init.sh'
 - Don't CD into bin then try to run the command, it will not work.
 - If the folder(s) '/var' or '/var/log' do not exist, the initialization will not work.
