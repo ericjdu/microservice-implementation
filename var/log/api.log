@@ -1,0 +1,183 @@
+[2021-10-17 23:58:20,072] DEBUG in users: WHERE "username LIKE ?", ['%juan%']
+[2021-10-17 23:58:26,491] DEBUG in users: WHERE "username LIKE ?", ['%l%']
+[2021-10-17 23:58:29,379] DEBUG in users: WHERE "username LIKE ?", ['%k%']
+[2021-10-17 23:58:32,631] DEBUG in users: WHERE "username LIKE ?", ['%p%']
+[2021-10-18 00:00:05,375] DEBUG in users: WHERE "username LIKE ?", ['%p%']
+[2021-10-18 23:53:38,683] DEBUG in timelines: WHERE "username = ? AND username LIKE ?", ['p', '%p%']
+[2021-10-18 23:53:56,976] DEBUG in timelines: WHERE "username = ? AND username LIKE ?", ['p', '%p%']
+[2021-10-18 23:54:32,652] DEBUG in timelines: WHERE "username = ? AND username LIKE ?", ['p', '%p%']
+[2021-10-18 23:55:16,556] DEBUG in timelines: WHERE "username = ? AND username LIKE ?", ['p', '%p%']
+[2021-10-19 00:13:59,740] DEBUG in timelines: WHERE "username = ? AND username LIKE ?", ['p', '%p%']
+[2021-10-19 00:26:55,426] DEBUG in timelines: WHERE "username = ? AND username LIKE ?", ['p', '%p%']
+[2021-10-19 20:53:36,127] DEBUG in users: WHERE "username LIKE ?", ['%p%']
+[2021-10-19 20:53:57,454] DEBUG in users: WHERE "username = ? AND username LIKE ?", ['p', '%p%']
+[2021-10-19 20:54:09,313] DEBUG in users: WHERE "username LIKE ?", ['%p%']
+[2021-10-19 21:23:31,020] DEBUG in timelines: WHERE "username LIKE ?", ['%p%']
+[2021-10-22 15:17:11,909] DEBUG in timelines: WHERE "username LIKE ?", ['%juancocina%']
+[2021-10-22 15:19:52,920] DEBUG in timelines: WHERE "username LIKE ?", ['%juancocina%']
+[2021-10-22 15:21:33,219] DEBUG in timelines: WHERE "username LIKE ?", ['%juancocina%']
+[2021-10-22 15:21:51,018] DEBUG in timelines: WHERE "username LIKE ?", ['%juancocina%']
+[2021-10-22 16:45:44,138] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-10-22 16:49:48,868] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 16:49:48,882] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=None&password=None HTTP/1.1" 200 4
+[2021-10-22 16:55:58,882] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 16:55:58,892] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=None&password=None HTTP/1.1" 200 4
+[2021-10-22 16:57:13,003] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 16:57:13,009] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 16:57:46,640] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 16:57:46,647] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 17:05:38,697] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:05:38,703] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 17:06:34,563] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:06:34,578] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 17:07:19,449] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:07:19,460] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 17:09:42,686] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:09:42,693] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 17:11:26,659] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:11:26,672] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 17:13:17,000] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:13:17,007] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 17:15:26,735] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:15:26,740] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 17:15:39,130] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:15:39,140] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 17:15:52,990] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:15:52,995] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 17:16:00,596] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:16:00,602] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=password HTTP/1.1" 200 61
+[2021-10-22 17:16:04,425] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:16:04,431] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=passwor HTTP/1.1" 200 69
+[2021-10-22 17:19:02,911] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:19:02,922] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=juancocina&password=passwor HTTP/1.1" 200 69
+[2021-10-22 17:50:21,702] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:50:21,711] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=username&password=password HTTP/1.1" 200 4
+[2021-10-22 17:55:16,084] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8001
+[2021-10-22 17:55:16,090] DEBUG in urllib3.connectionpool: http://localhost:8001 "GET /authenticate/?username=username HTTP/1.1" 200 4
+[2021-10-22 22:01:24,202] DEBUG in timelines: WHERE "username LIKE ?", ['%juancocina%']
+[2021-11-11 19:23:53,798] DEBUG in users: WHERE "username LIKE ?", ['%j%']
+[2021-11-11 19:25:04,898] DEBUG in users: WHERE "username LIKE ?", ['%j%']
+[2021-11-11 19:25:18,748] DEBUG in users: WHERE "username LIKE ?", ['%j%']
+[2021-11-11 19:32:08,509] DEBUG in users: WHERE "username LIKE ?", ['%j%']
+[2021-11-11 19:35:09,436] DEBUG in users: WHERE "username LIKE ?", ['%j%']
+[2021-11-11 19:48:18,132] DEBUG in timelines: WHERE "username LIKE ?", ['%j%']
+[2021-11-12 22:47:32,548] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 22:49:23,205] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 22:49:38,325] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 22:49:52,219] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 22:49:52,226] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/ HTTP/1.1" 500 59
+[2021-11-12 22:50:00,156] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 22:50:00,175] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/ HTTP/1.1" 500 59
+[2021-11-12 22:52:17,826] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 22:52:17,834] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/ HTTP/1.1" 500 59
+[2021-11-12 22:52:28,575] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 22:52:28,584] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/ HTTP/1.1" 500 59
+[2021-11-12 23:00:15,361] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 23:00:15,367] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/ HTTP/1.1" 200 4
+[2021-11-12 23:02:46,390] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 23:02:46,407] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/ HTTP/1.1" 200 4
+[2021-11-12 23:15:53,545] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 23:15:53,552] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?usernamejuancocina HTTP/1.1" 200 4
+[2021-11-12 23:16:19,017] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 23:16:19,022] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?usernamejuancocina HTTP/1.1" 200 4
+[2021-11-12 23:19:06,499] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 23:19:06,510] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?usernamejuancocina HTTP/1.1" 200 4
+[2021-11-12 23:20:39,007] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 23:20:39,013] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?usernamejuancocina HTTP/1.1" 200 4
+[2021-11-12 23:21:05,257] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 23:21:05,263] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 42
+[2021-11-12 23:28:03,208] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 23:28:03,214] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 42
+[2021-11-12 23:35:16,033] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 23:35:16,040] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 42
+[2021-11-12 23:35:36,983] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-12 23:35:36,987] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 42
+[2021-11-15 18:37:55,494] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:37:55,501] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:39:07,768] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:39:07,778] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:41:11,062] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:41:11,067] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:45:45,122] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:45:45,127] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:46:50,535] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:46:50,543] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:48:40,935] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:48:40,942] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:49:10,572] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:49:10,578] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:49:42,881] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:49:42,888] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:49:58,582] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:49:58,587] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:50:19,684] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:50:19,692] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:50:35,840] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:50:35,846] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:51:52,470] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:51:52,477] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:54:53,867] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:54:53,873] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:55:31,179] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:55:31,188] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:56:09,972] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:56:09,979] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:56:27,928] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:56:27,934] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:56:50,031] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:56:50,038] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 18:57:05,515] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 18:57:05,520] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:02:02,979] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:02:02,984] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:02:11,984] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:02:11,990] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:02:22,552] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:02:22,559] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:02:38,676] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:02:38,681] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:04:29,440] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:04:29,448] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:07:01,193] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:07:01,213] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:15:06,248] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:15:06,255] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:15:46,808] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:15:46,814] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:19:15,018] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:19:15,027] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:20:49,079] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:20:49,084] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:21:20,466] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:21:20,472] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:23:05,634] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:23:05,641] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:23:57,486] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:23:57,494] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:24:22,626] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:24:22,632] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:24:38,640] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:24:38,648] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:25:10,550] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:25:10,556] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:25:27,097] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:25:27,104] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:26:09,626] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:26:09,632] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 58
+[2021-11-15 19:27:32,181] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:27:32,190] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 56
+[2021-11-15 19:27:58,347] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:27:58,354] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 56
+[2021-11-15 19:28:16,140] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:28:16,146] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 56
+[2021-11-15 19:28:36,115] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:28:36,124] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 56
+[2021-11-15 19:32:30,479] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:32:30,485] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 56
+[2021-11-15 19:32:47,774] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:32:47,780] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 56
+[2021-11-15 19:34:25,069] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:34:25,076] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 56
+[2021-11-15 19:48:37,171] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000
+[2021-11-15 19:48:37,177] DEBUG in urllib3.connectionpool: http://localhost:8000 "GET /userFollows/?username=juancocina HTTP/1.1" 200 56
+[2021-11-16 16:31:01,289] DEBUG in urllib3.connectionpool: Starting new HTTP connection (1): localhost:8000

@@ -1,0 +1,6 @@
+id,follower,following
+1,juancocina,profAvery
+2,juancocina,beth_CSUF
+3,profAvery,juancocina
+4,profAvery,beth_CSUF
+5,beth_CSUF,profAvery
