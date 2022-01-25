@@ -61,8 +61,3 @@ In Browser
 - '/popular/' will return the most liked post
 - '/likes/post/amount/{post_id}' will return how many likes a post has
 
-# WHAT IS MISSING FROM THE PROJECT
-- Service Registry
-- Health Checks 
-- Updating the posts service to use the service registry
-
